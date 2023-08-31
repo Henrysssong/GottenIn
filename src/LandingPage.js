@@ -6,7 +6,7 @@ function LandingPage() {
   return (
     <div className="landing-container">
       <HiringMessageBox />
-      <h2>GottenIn, a Non-Profit platform to connect applicant and employees to easily get an effective referral.</h2>
+      <h2>GottenIn is a non-profit platform designed to bridge the gap between job applicants and employees, facilitating impactful referrals with ease.</h2>
       
       <div className="portal-container">
         <div className="portal-block">
