@@ -1,0 +1,18 @@
+/* src/About.css */
+
+.about-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-section h2, .about-section h3 {
+    color: #4CAF50;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
