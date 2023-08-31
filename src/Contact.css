@@ -1,3 +1,17 @@
 /* src/Contact.css */
 
-  
+.contact-section {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact-section h2 {
+  font-size: 3rem;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  color: #000000;
+}
