@@ -3,12 +3,12 @@
 .footer {
     padding: 20px 0;
     background-color: #000000;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
 
 p {
-    font-size: 0.5rem;
-    color: #FFFFFF;
+    font-size:  rem;
+    color: #ffffff;
   }
