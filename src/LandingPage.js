@@ -11,13 +11,13 @@ function LandingPage() {
       <div className="portal-container">
         <div className="portal-block">
         <img src={process.env.PUBLIC_URL + "/applicant_image.jpg"} alt="Applicant" />
-          <p className="landingPageText">Nowadays, referral had gotten more and more crucial in the recruiting process. According to one of Amazon's hiring manager, 11/13 of offers are for those who had a referral. Yet it is slow and tiring to keep asking for referral and getting ignored. At GottenIn, we connect you with employees from your dream company so and save your precious time.</p>
+          <p className="landingPageText">Referrals have become increasingly pivotal in the hiring landscape. As noted by a hiring manager at Amazon, 11 out of 13 job offers are extended to candidates with referrals. However, constantly seeking referrals and facing rejection can be exhausting. GottenIn streamlines this process by directly connecting you with employees from your desired companies, saving you invaluable time.</p>
           <button onClick={() => window.location.href='/applicant'}>Applicant Portal</button>
         </div>
         
         <div className="portal-block">
           <img src={process.env.PUBLIC_URL + "/employee_image.jpg"} alt="Employee" />
-          <p className="landingPageText">Getting a bonus or helping others is cool. But come on, job already takes a lot of time. You don't want to waste your time and spend your mind talking to applicants you don't feel qualified. At GottenIn, you have access to a sheet of applicants. Just contact or refer the ones who you think have a shot.</p>
+          <p className="landingPageText">While earning a bonus or assisting others is commendable, let's face it—jobs are already time-consuming. You wouldn't want to invest additional hours vetting applicants you find unsuitable. With GottenIn, you get a curated list of candidates. Simply engage with or refer those who, in your opinion, stand a genuine chance.</p>
           <button onClick={() => window.location.href='/employee'}>Employee Portal</button>
         </div>
       </div>
