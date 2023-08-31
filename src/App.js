@@ -8,6 +8,8 @@ import Footer from './Footer';
 import About from './About';
 import Contact from './Contact';
 import './App.css';
+import LandingPage from './LandingPage';
+
 
 // ... rest of the code
 
@@ -19,9 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <main className="main-content">
-              <h2>Get referred! Get closer to your dream job!</h2>
-              <p>Fill out the form, and employees from your dream company might see your info and potentially contact you.</p>
-              <button onClick={() => window.location.href='https://forms.gle/RdL3pVgd3wh9nPny9'}>Get Referred</button>
+              <Route path="/" element={<LandingPage />} />
             </main>
           } />
           <Route path="/about" element={<About />} />

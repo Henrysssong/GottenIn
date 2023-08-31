@@ -7,12 +7,12 @@
   }
   
   .contact-section h2 {
-    color: #4CAF50;
+    color: #000000;
   }
   
   .contact-section p {
     font-size: 1rem;
-    color: #666;
+    color: #000000;
     max-width: 800px;
     margin: 20px auto;
   }
