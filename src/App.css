@@ -46,6 +46,9 @@ a:hover {
   color: #388E3C;
 }
 
-h1, h2, h3 {
-  font-size: 2rem;
+h2  {
+  font-size: 5rem;
+}
+p {
+  font-size: 1.5rem;
 }
