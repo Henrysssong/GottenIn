@@ -21,7 +21,7 @@
   }
   
   .portal-block img {
-    width: 100%;
+    width: 40%;
     height: auto;
     margin-bottom: 20px;
   }
@@ -38,16 +38,4 @@
   .landingPageText {
     font-size: 1.2rem;
     color: #000000;
-  }
-
-  img[src="employee_image.jpg"] {
-    width: 40%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-
-  img[src="applicant_image.jpg"] {
-    width: 40%;
-    height: auto;
-    margin-bottom: 20px;
   }
