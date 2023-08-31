@@ -2,6 +2,9 @@
     text-align: center;
     padding: 20px;
   }
+  .landing-container h2 {
+    font-size: 3rem;
+  }
   
   .portal-container {
     display: flex;
@@ -32,7 +35,19 @@
     color: #ffffff;
   }
 
-  p {
-    font-size: 1.5rem;
+  .landingPageText {
+    font-size: 1.2rem;
     color: #000000;
+  }
+
+  img[src="employee_image.jpg"] {
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  img[src="applicant_image.jpg"] {
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
   }

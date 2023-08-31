@@ -9,6 +9,7 @@ import Contact from './Contact';
 import './App.css';
 import LandingPage from './LandingPage';
 import Applicant from './Applicant';
+import Employee from './Employee';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/applicant" element={<Applicant />} />
+          <Route path="/employee" element={<Employee />} />
         </Routes>
         <Footer />
       </div>
