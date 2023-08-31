@@ -9,6 +9,7 @@ import About from './About';
 import Contact from './Contact';
 import './App.css';
 import LandingPage from './LandingPage';
+import Applicant from './Applicant';
 
 
 // ... rest of the code
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/applicant" element={<Applicant />} />
         </Routes>
         <Footer />
       </div>
