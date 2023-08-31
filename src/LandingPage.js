@@ -11,7 +11,7 @@ function LandingPage() {
         <div className="portal-block">
           <img src="path_to_applicant_image.jpg" alt="Applicant" />
           <p>Description for applicants</p>
-          <button onClick={() => window.location.href='/'}>Applicant Portal</button>
+          <button onClick={() => window.location.href='/Applicant.js'}>Applicant Portal</button>
         </div>
         
         <div className="portal-block">

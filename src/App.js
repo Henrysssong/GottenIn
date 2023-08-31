@@ -19,11 +19,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={
-            <main className="main-content">
-              <Route path="/" element={<LandingPage />} />
-            </main>
-          } />
+        <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
