@@ -1,4 +1,3 @@
-// // src/App.js
 // src/App.js
 
 import React from 'react';
@@ -10,9 +9,6 @@ import Contact from './Contact';
 import './App.css';
 import LandingPage from './LandingPage';
 import Applicant from './Applicant';
-
-
-// ... rest of the code
 
 function App() {
   return (
