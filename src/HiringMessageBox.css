@@ -1,0 +1,14 @@
+.hiring-message-box {
+    background-color: #4CAF50; /* You can change this to any color you prefer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  .hiring-message-box a {
+    color: white;
+    text-decoration: underline;
+    margin-left: 5px;
+  }
+  

@@ -1,10 +1,12 @@
 import React from 'react';
 import './LandingPage.css';
+import HiringMessageBox from './HiringMessageBox';
 
 function LandingPage() {
   return (
     <div className="landing-container">
-      <h2>GottenIn, platform to connect applicant and employees to easily get an effective referral.</h2>
+      <HiringMessageBox />
+      <h2>GottenIn, a Non-Profit platform to connect applicant and employees to easily get an effective referral.</h2>
       
       <div className="portal-container">
         <div className="portal-block">
